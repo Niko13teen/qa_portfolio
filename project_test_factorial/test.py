@@ -2,6 +2,7 @@ from math import factorial
 import requests
 import sys 
 
+
 url = str('http://qainterview.pythonanywhere.com/')
 
 def method_post_factorial(number: int) -> int:
@@ -26,6 +27,7 @@ def generate_data_factorial(number: int) -> int:
     except ValueError as e:
         print('Equal Error: ', e)
 
+        
 if __name__ == '__main__':
     try:
         number = int(sys.argv[1])
